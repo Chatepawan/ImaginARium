@@ -40,8 +40,8 @@ dependencies:
   firebase_auth: ^4.12.0
   google_fonts: ^6.1.0
 #  cupertino_icons: ^1.0.2
-  ar_flutter_plugin: ^0.7.3
-  arcore_flutter_plugin: ^0.1.0
+#  ar_flutter_plugin: ^0.7.3
+#  arcore_flutter_plugin: ^0.1.0
   carousel_slider: ^4.2.1
   flutter_staggered_grid_view: ^0.7.0
   jumping_dot: ^0.0.6
@@ -53,6 +53,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_cube: ^0.1.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -80,6 +81,7 @@ flutter:
     - assets/logo/
     - assets/fonts/
     - assets/images/home/
+    - assets/models/
   # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
